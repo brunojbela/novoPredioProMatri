@@ -1,0 +1,39 @@
+section.sobre {
+  .conteudo {
+    @media(max-width: 768px ){
+      margin-bottom: 50px;
+    }
+    h2 {
+      font-family: 'QuicheSans-Light';
+      color: #233769;
+      margin-top: 36px;
+      font-size: 36px;
+      @media(max-width: 768px ){
+        font-size: 28px;
+      }
+    }
+    p {
+      font-family: 'BwModelica-Regular';
+      color: #233769;
+      margin-bottom: 27px;
+      font-size: 18px;
+      @media(max-width: 768px ){
+font-size: 16px;
+      }
+    }
+  }
+  figure {
+    @media(max-width: 768px ){
+      margin-bottom: 50px;
+      margin-right: 0 !important;
+      margin-left: 0 !important;
+    }
+    img {
+      max-height: 388px !important;
+      width: auto !important;
+      @media(max-width: 768px ){
+        width: 100% !important;
+      }
+    }
+  }
+}

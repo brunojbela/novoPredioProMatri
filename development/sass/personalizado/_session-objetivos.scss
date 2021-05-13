@@ -1,0 +1,50 @@
+section.objetivos {
+  padding-bottom: 94px;
+ background:linear-gradient(transparent 50%, #fffef2 50%);
+  @media (max-width: 768px){
+    padding-bottom: 0px;
+  }
+  .objt {
+   .item {
+     padding: 50px 50px 0;
+     background-repeat: no-repeat;
+     background-position: center;
+     min-height: 500px;
+     background-size: cover;
+
+     h2 {
+       font-family: QuicheSans-Light;
+       font-size: 27px;
+       line-height: 1.39;
+       letter-spacing: -0.68px;
+       text-align: left;
+       color: #233769;
+       margin-bottom: 40px;
+       text-transform: uppercase;
+     }
+     p {
+       font-family: BwModelica-Regular;
+       font-size: 16px;
+       line-height: 1.16;
+       letter-spacing: -0.72px;
+       text-align: left;
+       color: #233769;
+     }
+   }
+    &.objetivo {
+      .item {
+        background-image: url("../images/bg-objetivo.png");
+      }
+    }
+    &.diferenciais {
+      .item {
+        background-image: url("../images/bg-diferenciais.png");
+      }
+    }
+    &.principais-pontos {
+      .item {
+        background-image: url("../images/bg-principais-pontos.png");
+      }
+    }
+  }
+}

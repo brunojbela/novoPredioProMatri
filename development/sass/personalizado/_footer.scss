@@ -1,0 +1,109 @@
+footer#footer {
+  background-color: rgba(215, 240, 255, 0.17);
+  span.titleFooter {
+    font-family: QuicheSans-Regular;
+    font-size: 17.5px;
+    line-height: 86.5px;
+    letter-spacing: 0.88px;
+    text-align: center;
+    color: #233769;
+  }
+  ul {
+    padding: 0;
+    margin: 0;
+    li {
+      list-style: none;
+    }
+  }
+  ul.contatos {
+    @media (max-width: 768px) {
+      display: table;
+      margin: auto;
+    }
+    li.tel {
+      background-image: url('../images/tel.png');
+      height: 28px;
+      margin-bottom: 18px;
+      padding-left: 65px;
+      background-repeat: no-repeat;
+      background-position: 8px center;
+      line-height: 28px;
+    }
+    li.whats {
+     background-image: url('../images/whats.png');
+      height: 52px;
+      padding-left: 65px;
+      background-repeat: no-repeat;
+      background-position: left center;
+      line-height: 52px;
+    }
+    li {
+      font-family: BwModelica-Light;
+      font-size: 16px;
+      letter-spacing: -0.4px;
+      text-align: left;
+      color: #233769;
+    }
+  }
+  ul.email {
+    li {
+      font-family: BwModelica-Light;
+      font-size: 16px;
+      line-height: 35.5px;
+      letter-spacing: -0.4px;
+      text-align: center;
+      color: #233769;
+    }
+  }
+  ul.sociais {
+    margin: 20px auto;
+    display: table;
+
+    li {
+      display: table;
+      float: left;
+      margin-right: 25px;
+      img {
+        height: 32px;
+        width: auto;
+      }
+      a {
+
+      }
+      &:last-child {
+        margin-left: 0;
+      }
+    }
+  }
+  p {
+    font-family: BwModelica-Light;
+    font-size: 15.5px;
+    line-height: 25.5px;
+    text-align: center;
+    color: #233769;
+    margin-bottom: 112px;
+  }
+  ul#menu-footer {
+    display: table !important;
+    margin: 54px auto 0 !important;
+    float: none !important;
+    li {
+      a {
+        font-size: 14px;
+        font-weight: bold;
+        line-height: 30.5px;
+        letter-spacing: -0.35px;
+        text-align: left;
+        color: #233769;
+        @media (max-width:768px) {
+          text-align: center;
+        }
+        &:hover,
+        &:active,
+        &:focus{
+          background: none;
+        }
+      }
+    }
+  }
+}

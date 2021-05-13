@@ -1,0 +1,33 @@
+header#header {
+  background-color: #233769;
+  button.navbar-toggle {
+    .icon-bar {
+      background-color: #fff;
+    }
+  }
+  nav {
+    @media(min-width: 768px) {
+      display: table !important;
+    }
+    width: 100%;
+    ul.nav {
+      display: table;
+      margin: auto;
+      float: none;
+      li {
+        a {
+          line-height: 38px;
+          padding: 0 15px;
+          font-weight: bold;
+          font-size: 14px;
+          color: #fff;
+          &:hover,
+          &:active,
+          &:focus{
+            background: none;
+          }
+        }
+      }
+    }
+  }
+}

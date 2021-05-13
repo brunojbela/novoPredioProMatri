@@ -1,0 +1,100 @@
+/**
+ * @license
+ * MyFonts Webfont Build ID 3944063, 2020-09-03T15:53:07-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: BwModelica-ExtraBold by Branding with Type
+ * URL: https://www.myfonts.com/fonts/branding-with-type/bw-modelica/extra-bold/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Alberto Romanos. All rights reserved.
+ * 
+ * Webfont: BwModelica-Bold by Branding with Type
+ * URL: https://www.myfonts.com/fonts/branding-with-type/bw-modelica/bold/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Alberto Romanos. All rights reserved.
+ * 
+ * Webfont: BwModelica-Light by Branding with Type
+ * URL: https://www.myfonts.com/fonts/branding-with-type/bw-modelica/light/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Alberto Romanos. All rights reserved.
+ * 
+ * Webfont: BwModelica-Regular by Branding with Type
+ * URL: https://www.myfonts.com/fonts/branding-with-type/bw-modelica/regular/
+ * Copyright: Copyright &amp;#x00A9; 2016 by Alberto Romanos. All rights reserved.
+ * 
+ * Webfont: QuicheSans-Light by Adam Ladd
+ * URL: https://www.myfonts.com/fonts/adam-ladd/quiche-sans/light/
+ * Copyright: Copyright &amp;#x00A9; 2018 by Adam Ladd. All rights reserved.
+ * 
+ * Webfont: QuicheSans-Regular by Adam Ladd
+ * URL: https://www.myfonts.com/fonts/adam-ladd/quiche-sans/regular/
+ * Copyright: Copyright &amp;#x00A9; 2018 by Adam Ladd. All rights reserved.
+ * 
+ * Webfont: QuicheSans-Bold by Adam Ladd
+ * URL: https://www.myfonts.com/fonts/adam-ladd/quiche-sans/bold/
+ * Copyright: Copyright &amp;#x00A9; 2018 by Adam Ladd. All rights reserved.
+ * 
+ * Webfont: QuicheSans-Italic by Adam Ladd
+ * URL: https://www.myfonts.com/fonts/adam-ladd/quiche-sans/italic/
+ * Copyright: Copyright &amp;#x00A9; 2018 by Adam Ladd. All rights reserved.
+ * 
+ * Webfont: QuicheSans-LightItalic by Adam Ladd
+ * URL: https://www.myfonts.com/fonts/adam-ladd/quiche-sans/light-italic/
+ * Copyright: Copyright &amp;#x00A9; 2018 by Adam Ladd. All rights reserved.
+ * 
+ * Webfont: QuicheSans-BoldItalic by Adam Ladd
+ * URL: https://www.myfonts.com/fonts/adam-ladd/quiche-sans/bold-italic/
+ * Copyright: Copyright &amp;#x00A9; 2018 by Adam Ladd. All rights reserved.
+ * 
+ * 
+ * 
+ * © 2020 MyFonts Inc
+*/
+
+
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/3c2e7f");
+  
+@font-face {
+  font-family: 'BwModelica-Light';
+  src: url('webFonts/BwModelica-Light/font.woff2') format('woff2'), url('webFonts/BwModelica-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'BwModelica-ExtraBold';
+  src: url('webFonts/BwModelica-ExtraBold/font.woff2') format('woff2'), url('webFonts/BwModelica-ExtraBold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'BwModelica-Regular';
+  src: url('webFonts/BwModelica-Regular/font.woff2') format('woff2'), url('webFonts/BwModelica-Regular/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'BwModelica-Bold';
+  src: url('webFonts/BwModelica-Bold/font.woff2') format('woff2'), url('webFonts/BwModelica-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'QuicheSans-Light';
+  src: url('webFonts/QuicheSans-Light/font.woff2') format('woff2'), url('webFonts/QuicheSans-Light/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'QuicheSans-Italic';
+  src: url('webFonts/QuicheSans-Italic/font.woff2') format('woff2'), url('webFonts/QuicheSans-Italic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'QuicheSans-LightItalic';
+  src: url('webFonts/QuicheSans-LightItalic/font.woff2') format('woff2'), url('webFonts/QuicheSans-LightItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'QuicheSans-BoldItalic';
+  src: url('webFonts/QuicheSans-BoldItalic/font.woff2') format('woff2'), url('webFonts/QuicheSans-BoldItalic/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'QuicheSans-Bold';
+  src: url('webFonts/QuicheSans-Bold/font.woff2') format('woff2'), url('webFonts/QuicheSans-Bold/font.woff') format('woff');
+}
+@font-face {
+  font-family: 'QuicheSans-Regular';
+  src: url('webFonts/QuicheSans-Regular/font.woff2') format('woff2'), url('webFonts/QuicheSans-Regular/font.woff') format('woff');
+}
+
